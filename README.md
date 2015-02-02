@@ -29,6 +29,10 @@ $ rosrun move_head move_head
 
 ##Your Solution
 
+Your solution will go in either pickup_object.cpp or pickup_object.py in the pickup_object package.  We have provided the
+move_* packages to provide code to get you started.  Please make sure that the correct line is uncommented in the pickup_object.launch
+file depending on whether you use python or C++.
+
 In order to test your code, please run:
 ```bash
 $ roslaunch assigment_launch pr2_gazebo_moveit.launch
