@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>assigment_launch</name>
+  <name>assignment_launch</name>
   <version>0.0.0</version>
-  <description>The assigment_launch package</description>
+  <description>The assignment_launch package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->

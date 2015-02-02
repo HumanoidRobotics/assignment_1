@@ -15,12 +15,12 @@
 
   <!-- Add table to the world -->
   <node name="spawn_table" pkg="gazebo_ros" type="spawn_model" 
-   args="-urdf -file $(find assigment_launch)/models/table.urdf -model table -x 2.15 -y 0.5"
+   args="-urdf -file $(find assignment_launch)/models/table.urdf -model table -x 2.15 -y 0.5"
    respawn="false" output="screen" />
 
   <!-- Add Coke can to the world -->
   <node name="spawn_object" pkg="gazebo_ros" type="spawn_model" 
-   args="-urdf -file $(find assigment_launch)/models/coke_can.urdf -model coke -x 1.745 -y 0.6 -z 0.55"
+   args="-urdf -file $(find assignment_launch)/models/coke_can.urdf -model coke -x 1.745 -y 0.6 -z 0.55"
    respawn="false" output="screen" />
 
 </launch>
