@@ -47,3 +47,15 @@ We will grade your assignment by running:
 ```bash
 $ roslaunch assigment_launch assignment_1.launch
 ```
+
+For this assigment we expect you to have the PR2 navigate to the table, and pick the cup off the table.  It is ok if the cup
+falls out of the PR2's gripper after several seconds. 
+
+##Submission
+In order to submit your your code, please run the following:
+```bash
+$ cd ~/assignment_1
+$ tar czf [YOUR UNI]_assignment_1.tar.gz src
+```
+
+Then submit the compressed src directory to courseworks.
