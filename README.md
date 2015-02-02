@@ -2,32 +2,44 @@
 # Columbia University
 
 
+## Getting Started
 
-## setting up the environment
+```bash
+$ cd ~
+$ git clone git@github.com:HumanoidRobotics/assignment_1.git
+$ cd assignment_1
+$ source /opt/ros/hydro/setup.bash
+$ catkin_make
+$ source devel/setup.bash
+```
 
-### workspace
-> git clone or copy and paste 'humanoids_robots' on /home
- 
-> catkin_make
+## Runing the Demo code
+First, bring up Gazebo, Moveit and the PR2
+```bash
+$ roslaunch assigment_launch pr2_gazebo_moveit.launch
+```
 
-## testing the xamples
-### bring up Gazebo
-> roslaunch pr2_gazebo pr2_empty_world.launch
+Then run the individual demos with any of the following:
+```bash
+$ rosrun move_arm move_arm
+$ rosrun move_base move_base
+$ rosrun move_gripper move_gripper
+$ rosrun move_head move_head
+```
 
-### if testing the move_arm code, bring up moveit
-> roslaunch pr2_moveit_config move_group.launch
+##Your Solution
 
-### compile, source and run code
-> source devel/setup.bash
+In order to test your code, please run:
+```bash
+$ roslaunch assigment_launch pr2_gazebo_moveit.launch
+```
 
-> rosrun humanoids_robots <example>
+Then:
+```bash
+$ rosrun pickup_object pickup_object
+```
 
-
-### As for the for the homework:
-bring up Gazebo, table and coke
-> roslaunch humanoids_robots pr2_gazebo_tablewithobject.launch
-
-### then you will have to work on your own code. 
-* you will have to create a new package "hw1" and a new launch file "everything.launch"
-* your launch file may include above launch file and your(s) node(s)
-* We will execute roslaunch hw1 everything.launch
+We will grade your assignment by running:
+```bash
+$ roslaunch assigment_launch assignment_1.launch
+```
