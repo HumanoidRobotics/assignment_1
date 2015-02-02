@@ -96,14 +96,14 @@ catkin_package(
 # )
 
 ## Declare a cpp executable
-add_executable(move_base_node src/move_base.cpp)
+add_executable(move_base src/move_base.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
 # add_dependencies(move_base_node move_base_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(move_base_node
+target_link_libraries(move_base
    ${catkin_LIBRARIES}
  )
 

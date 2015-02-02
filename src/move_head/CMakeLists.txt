@@ -96,14 +96,14 @@ catkin_package(
 # )
 
 ## Declare a cpp executable
-add_executable(move_head_node src/move_head.cpp)
+add_executable(move_head src/move_head.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
 # add_dependencies(move_head_node move_head_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
- target_link_libraries(move_head_node
+ target_link_libraries(move_head
    ${catkin_LIBRARIES}
  )
 
