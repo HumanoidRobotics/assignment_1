@@ -29,7 +29,7 @@ $ rosrun move_gripper move_gripper
 $ rosrun move_head move_head
 ```
 
-##Optional Challenge Probelm
+##Optional Challenge Problem
 
 Your code will go in either pickup_object.cpp or pickup_object.py in the pickup_object package.  We have provided the
 move_* packages to provide code to get you started.  Please make sure that the correct line is uncommented in the pickup_object.launch
@@ -56,6 +56,6 @@ $ roslaunch assignment_launch assignment_1.launch
 ```
 
 The goal of this challenge is to have the PR2 navigate to the table, and pick the cup off the table.  It is ok if the cup
-falls out of the PR2's gripper after several seconds. 
+falls out of the PR2's gripper after several seconds. This is entirely optional, but a good way to learn about different components of a ROS system.
 
 
