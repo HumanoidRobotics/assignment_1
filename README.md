@@ -9,7 +9,7 @@ The following lines will not work unless ROS is properly installed.  You can fin
 ```bash
 $ cd ~
 $ git clone git@github.com:HumanoidRobotics/challenge_problem_1.git
-$ cd assignment_1
+$ cd challenge_problem_1
 $ source /opt/ros/hydro/setup.bash
 $ catkin_make
 $ source devel/setup.bash
