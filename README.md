@@ -13,7 +13,7 @@ $ catkin_make
 $ source devel/setup.bash
 ```
 
-## Runing the Demo code
+## Running the Demo code
 First, bring up Gazebo, Moveit and the PR2
 ```bash
 $ roslaunch assignment_launch pr2_gazebo_moveit.launch
@@ -41,6 +41,11 @@ $ roslaunch assignment_launch pr2_gazebo_moveit.launch
 Then:
 ```bash
 $ rosrun pickup_object pickup_object
+```
+Or if using Python:
+
+```bash
+$ rosrun pickup_object pickup_object.py
 ```
 
 We will grade your assignment by running:
