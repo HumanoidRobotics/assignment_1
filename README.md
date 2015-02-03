@@ -16,7 +16,7 @@ $ source devel/setup.bash
 ## Runing the Demo code
 First, bring up Gazebo, Moveit and the PR2
 ```bash
-$ roslaunch assigment_launch pr2_gazebo_moveit.launch
+$ roslaunch assignment_launch pr2_gazebo_moveit.launch
 ```
 
 Then run the individual demos with any of the following:
@@ -45,7 +45,7 @@ $ rosrun pickup_object pickup_object
 
 We will grade your assignment by running:
 ```bash
-$ roslaunch assigment_launch assignment_1.launch
+$ roslaunch assignment_launch assignment_1.launch
 ```
 
 For this assigment we expect you to have the PR2 navigate to the table, and pick the cup off the table.  It is ok if the cup
