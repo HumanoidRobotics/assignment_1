@@ -4,6 +4,8 @@
 
 ## Getting Started
 
+The following lines will not work unless ROS is properly installed.  You can find instructions for how to do this from the ros_tutorial pdf on the class website.
+
 ```bash
 $ cd ~
 $ git clone git@github.com:HumanoidRobotics/assignment_1.git
