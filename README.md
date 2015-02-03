@@ -35,7 +35,7 @@ file depending on whether you use python or C++.
 
 In order to test your code, please run:
 ```bash
-$ roslaunch assigment_launch pr2_gazebo_moveit.launch
+$ roslaunch assignment_launch pr2_gazebo_moveit.launch
 ```
 
 Then:
@@ -48,7 +48,7 @@ We will grade your assignment by running:
 $ roslaunch assignment_launch assignment_1.launch
 ```
 
-For this assigment we expect you to have the PR2 navigate to the table, and pick the cup off the table.  It is ok if the cup
+For this assignment we expect you to have the PR2 navigate to the table, and pick the cup off the table.  It is ok if the cup
 falls out of the PR2's gripper after several seconds. 
 
 ##Submission
