@@ -29,9 +29,9 @@ $ rosrun move_gripper move_gripper
 $ rosrun move_head move_head
 ```
 
-##Your Solution
+##Optional Challenge Probelm
 
-Your solution will go in either pickup_object.cpp or pickup_object.py in the pickup_object package.  We have provided the
+Your code will go in either pickup_object.cpp or pickup_object.py in the pickup_object package.  We have provided the
 move_* packages to provide code to get you started.  Please make sure that the correct line is uncommented in the pickup_object.launch
 file depending on whether you use python or C++.
 
@@ -50,19 +50,12 @@ Or if using Python:
 $ rosrun pickup_object pickup_object.py
 ```
 
-We will grade your assignment by running:
+Or you can run everythign at once by running:
 ```bash
 $ roslaunch assignment_launch assignment_1.launch
 ```
 
-For this assignment we expect you to have the PR2 navigate to the table, and pick the cup off the table.  It is ok if the cup
+The goal of this challenge is to have the PR2 navigate to the table, and pick the cup off the table.  It is ok if the cup
 falls out of the PR2's gripper after several seconds. 
 
-##Submission
-In order to submit your your code, please run the following:
-```bash
-$ cd ~/assignment_1
-$ tar czf [YOUR UNI]_assignment_1.tar.gz src
-```
 
-Then submit the compressed src directory to courseworks.
