@@ -8,7 +8,7 @@ The following lines will not work unless ROS is properly installed.  You can fin
 
 ```bash
 $ cd ~
-$ git clone git@github.com:HumanoidRobotics/assignment_1.git
+$ git clone git@github.com:HumanoidRobotics/challenge_problem_1.git
 $ cd assignment_1
 $ source /opt/ros/hydro/setup.bash
 $ catkin_make
@@ -18,7 +18,7 @@ $ source devel/setup.bash
 ## Running the Demo code
 First, bring up Gazebo, Moveit and the PR2
 ```bash
-$ roslaunch assignment_launch pr2_gazebo_moveit.launch
+$ roslaunch system_launch pr2_gazebo_moveit.launch
 ```
 
 Then run the individual demos with any of the following:
@@ -37,7 +37,7 @@ file depending on whether you use python or C++.
 
 In order to test your code, please run:
 ```bash
-$ roslaunch assignment_launch pr2_gazebo_moveit.launch
+$ roslaunch system_launch pr2_gazebo_moveit.launch
 ```
 
 Then:
@@ -52,7 +52,7 @@ $ rosrun pickup_object pickup_object.py
 
 Or you can run everythign at once by running:
 ```bash
-$ roslaunch assignment_launch assignment_1.launch
+$ roslaunch system_launch challenge_1.launch
 ```
 
 The goal of this challenge is to have the PR2 navigate to the table, and pick the cup off the table.  It is ok if the cup
