@@ -10,7 +10,7 @@ The following lines will not work unless ROS is properly installed.  You can fin
 $ cd ~
 $ git clone git@github.com:HumanoidRobotics/pr2_example_code.git
 $ cd pr2_example_code
-$ source /opt/ros/hydro/setup.bash
+$ source /opt/ros/indigo/setup.bash
 $ catkin_make
 $ source devel/setup.bash
 ```
