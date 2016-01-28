@@ -1,4 +1,4 @@
-# COMS 6998-03 HUMANOID ROBOTS, SPRING 2015
+# COMSE 6731 HUMANOID ROBOTS, SPRING 2016
 # Columbia University
 
 
@@ -8,8 +8,8 @@ The following lines will not work unless ROS is properly installed.  You can fin
 
 ```bash
 $ cd ~
-$ git clone git@github.com:HumanoidRobotics/challenge_problem_1.git
-$ cd challenge_problem_1
+$ git clone git@github.com:HumanoidRobotics/pr2_example_code.git
+$ cd pr2_example_code
 $ source /opt/ros/hydro/setup.bash
 $ catkin_make
 $ source devel/setup.bash
@@ -50,7 +50,7 @@ Or if using Python:
 $ rosrun pickup_object pickup_object.py
 ```
 
-Or you can run everythign at once by running:
+Or you can run everything at once by running:
 ```bash
 $ roslaunch system_launch challenge_1.launch
 ```
