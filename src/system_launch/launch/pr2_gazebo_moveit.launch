@@ -23,4 +23,6 @@
    args="-urdf -file $(find system_launch)/models/coke_can.urdf -model coke -x 1.745 -y 0.6 -z 0.55"
    respawn="false" output="screen" />
 
+
+   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find system_launch)/launch/rviz.rviz"/>
 </launch>
