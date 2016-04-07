@@ -18,8 +18,10 @@ $ source devel/setup.bash
 ## Running the Demo code
 First, bring up Gazebo, Moveit and the PR2
 ```bash
+$ export KINECT1=true
 $ roslaunch system_launch pr2_gazebo_moveit.launch
 ```
+Note: running `export KINECT1=true` allows Gazebo to know you will be using the kinect model.
 
 Then run the individual demos with any of the following:
 ```bash
